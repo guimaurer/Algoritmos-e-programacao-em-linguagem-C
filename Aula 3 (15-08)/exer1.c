@@ -1,8 +1,6 @@
 /******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
+1) Fazer um programa em C que pergunta um valor em metros e imprime o correspondente em centímetros e milímetros. 
 
 *******************************************************************************/
 
@@ -10,15 +8,15 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main()
 {
-    int metros, centi, mili;
+    float metros, centi, mili;
     printf("\nDigite o valor em metros: ");
 
-    scanf ("%d", &metros);
+    scanf ("%f", &metros);
 
     centi = metros * 100;
     mili = metros * 1000;
 
-    printf("\nValor %d em metros, é %d em centímetros e %d em milímetros \n", metros, centi, mili );
+    printf("\nValor %.1f em centímetros é %.1f, e em milímetros é %.1f \n", metros, centi, mili );
 
     return 0;
 }
