@@ -9,9 +9,9 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Aula 3 (15-08)",
+      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Aula 3 (22-08)",
       "environment": [],
-      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Aula 3 (15-08)/build/Debug/outDebug",
+      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Aula 3 (22-08)/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
