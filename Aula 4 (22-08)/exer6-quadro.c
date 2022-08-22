@@ -24,26 +24,26 @@ void menu(int op, int var1, int var2) {
   } else if (op == 4) {
     printf("\nDivisão é igual a %f", (float)var1 / (float)var2);
   } else if (op == 5) {
-    printf("\nPotencia é igual a %d",  var1 * var2);
-  } else if (op < 5 || op == 0) {
-    printf("\n Digite uma operaçao válida");
-  }
-
-
+    printf("\nPotencia é igual a %lf", pow((double) var1, (double) var2));
+  } 
 }
 
 int main() {
   int ope, num1, num2;
   printf("\nSelecione a operação");
   printf("\n1 - soma   \n2 - subtração   \n3 - Multiplicação   \n4 - Divisão   "
-         " \n5 - Potência");
+         " \n5 - Potência\n");
   scanf("%d", &ope);
+  if (ope != 0 && ope < 6) {
+    printf("\nDigite o valor da var1: ");
+    scanf("%d", &num1);
 
-  printf("\nDigite o valor da var1");
-  scanf("%d", &num1);
+    printf("\nDigite o valor da var2: ");
+    scanf("%d", &num2);
 
-  printf("\nDigite o valor da var2");
-  scanf("%d", &num2);
+    menu(ope, num1, num2);
 
-  menu(ope, num1, num2);
+  } else {
+    printf("\n Digite uma operaçao válida \n");
+  }
 }
