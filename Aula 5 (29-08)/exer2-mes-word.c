@@ -9,7 +9,7 @@ com o número digitado pelo usuário.
 #include <stdio.h>
 
 int main() {
-  int mes;
+  int mes, data;
   printf("\nDigite o um número do mes: ");
   scanf("%d", &mes);
 
