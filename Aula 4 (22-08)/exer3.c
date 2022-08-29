@@ -17,8 +17,10 @@ int main()
 
     if(teclado == senha){
         printf("\nSenha correta");
-    } else{
-        printf("\n Acesso Negado");
+    } else if(teclado == ' '){
+        printf("\nSenha em branco");
+    }   else{
+        printf("\n Senha incorreta");
     }
-
+    main();
 }
