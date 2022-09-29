@@ -9,9 +9,9 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C",
+      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C/27-09 Prova",
       "environment": [],
-      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/build/Debug/outDebug",
+      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/27-09 Prova/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
