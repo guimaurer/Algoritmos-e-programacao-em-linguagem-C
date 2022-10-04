@@ -9,7 +9,7 @@ int main() {
 
     for (i = 1; i <= n; i++) { /* Esse for vai até o tamanho do losango*/
       for (j = 1; j <= n - i; j++) { 
-        /* Esse for vai imprimir espaço do tamanho do lasangulo menos a quantidade
+        /* Esse for vai imprimir espaço do tamanho do lasango menos a quantidade
          do for de cima, ou seja decrescente*/  
         printf(" ");
       }
@@ -29,8 +29,8 @@ int main() {
       }
       printf("\n");
 
-      for (j = 0; j <= i - 1; j++) {
-        /* Esse for vai imprimir espaço de forma crecente até o tamanho do tamanho do lasangulo */
+      for (j = 0; j <= i-1; j++) {
+        /* Esse for vai imprimir espaço de forma crecente apenas no segundo loop até o tamanho do tamanho do lasangulo */
         printf(" ");
       }
     }
