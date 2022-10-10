@@ -14,16 +14,19 @@ int main() {
   for (i = 0; i < 7; i++) {
     vet[i] = 0;
     while (vet[i] < 10) {
-      printf("\nDigite a posição %d maior que 10: ", i);
+      printf("\nDigite a posição %d maior que 10: ", i + 1);
       scanf("%d", &vet[i]);
     }
-    if (vet[i] %2 != 0) {
-    vet_2[i_2] = vet[i];
-    i_2++;
+    if (vet[i] % 2 != 0) {
+      vet_2[i_2] = vet[i];
+      i_2++;
     }
   }
   for (i = 0; i < 7; i++) {
-    
-
+    printf("%d, ", vet[i]);
+  }
+  printf("\n\n");
+  for (i = 0; i < i_2; i++) {
+    printf("%d, ", vet_2[i]);
   }
 }

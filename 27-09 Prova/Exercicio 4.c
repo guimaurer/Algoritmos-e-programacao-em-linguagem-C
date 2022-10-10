@@ -7,7 +7,7 @@ int main() {
 
   if (n % 2 != 0) {
 
-    for (i = 1; i <= n; i++) { /* Esse for vai até o tamanho do losango*/
+    for (i = 1; i <= n/2; i++) { /* Esse for vai até o tamanho do losango*/
       for (j = 1; j <= n - i; j++) { 
         /* Esse for vai imprimir espaço do tamanho do lasango menos a quantidade
          do for de cima, ou seja decrescente*/  

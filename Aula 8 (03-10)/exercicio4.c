@@ -7,11 +7,13 @@ Usando funções em C
 #include <string.h>
 int main()
 {
-    char a[20]="Program";
-    char b[20]={'P','r','o','g','r','a','m','\0'};
+    char a[60]="Meu programa em c e mais ou menos";
+    char s[2] = " ";
+    char *tam;
 
-    printf("Length of string a = %zu \n",strlen(a));
-    printf("Length of string b = %zu \n",strlen(b));
+    tam = strtok(a, s);
+
+    printf("Length of string b = %s \n", tam);
 
     return 0;
 }
