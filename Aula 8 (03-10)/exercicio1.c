@@ -3,15 +3,16 @@
 Usando funções em C
 
 *******************************************************************************/
-#include <stdio.h>
-#include <string.h>
-int main()
+#include<stdio.h>
+int main(void)
 {
-    char a[20]="Program";
-    char b[20]={'P','r','o','g','r','a','m','\0'};
+  char nome[61];
+  
+  printf("Digite seu nome: ");
+  scanf("%s",nome);
+  
+  printf("O nome armazenado foi: %s", nome);
+  
 
-    printf("Length of string a = %zu \n",strlen(a));
-    printf("Length of string b = %zu \n",strlen(b));
-
-    return 0;
+  return 0;
 }
