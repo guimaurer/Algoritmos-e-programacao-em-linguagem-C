@@ -9,9 +9,9 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C/T1",
+      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C/REC",
       "environment": [],
-      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/T1/build/Debug/outDebug",
+      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/REC/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
