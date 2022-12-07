@@ -4,7 +4,7 @@
 int main() {
   ;
   int i, j;
-  int tam = 5;
+  int tam = 33;
   int metade = tam / 2 + 1;
   char matriz[tam][tam];
   int prim_x = metade, sec_x = metade;

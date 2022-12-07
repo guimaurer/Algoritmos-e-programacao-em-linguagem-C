@@ -12,6 +12,7 @@ float altura_pri() {
       printf("\n*** Altura invalida ***\n");
     }
   }
+  return 0;
 }
 
 float calc_media(int qtd_pessoas, float som_media) {
