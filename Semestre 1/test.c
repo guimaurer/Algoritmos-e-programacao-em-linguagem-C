@@ -15,7 +15,5 @@ int main() {
       tipo[aux] = scan_user;
     }
   }
-  soma_qtd++
+  soma_qtd++;
 }
-
-remove-gb()
