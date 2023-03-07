@@ -5,17 +5,13 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": [
-        ""
-      ],
+      "args": [],
       "stopAtEntry": false,
-      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C/REC",
-      "environment": [],
-      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/REC/build/Debug/outDebug",
-      "internalConsoleOptions": "openOnSessionStart",
+      "externalConsole": false,
+      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Semestre 2/07-03 ",
+      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Semestre 2/07-03 /build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
-      "externalConsole": false,
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
