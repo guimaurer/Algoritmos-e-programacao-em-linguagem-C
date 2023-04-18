@@ -10,6 +10,8 @@ histograma de letras que contem no texto.
 #include <string.h>
 
 
+
+
 int main() {
   char alfabeto[28] = {' ', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'A', 'I',
                        'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
