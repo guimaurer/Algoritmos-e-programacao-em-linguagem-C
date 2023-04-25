@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Semestre 2/04-04",
-      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Semestre 2/04-04/build/Debug/outDebug",
+      "cwd": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Semestre 2/18-04 (Revisão p prova)",
+      "program": "/workspace/Algoritmos-e-programacao-em-linguagem-C/Semestre 2/18-04 (Revisão p prova)/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
       "setupCommands": [
