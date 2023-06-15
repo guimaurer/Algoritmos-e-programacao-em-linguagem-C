@@ -1,0 +1,3 @@
+guilherme;123123;rua e numero;centro;16/02/98;16/02/98;659.00
+guilherme;09744582952;rua e numero;bairro;16/02/98;16/02/98;5838.00
+guilherme;09744582952;asd;bairro;16/02/98;16/03/98;1948.00

@@ -1,0 +1,4 @@
+Mario;10;10;10
+Jose;5;9;5
+Marcio;5;6;8
+Carla;5;8;6
